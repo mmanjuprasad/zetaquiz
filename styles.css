@@ -1,0 +1,54 @@
+:root{
+    --primary-color : #003973;
+    --secondary-color : #E5E5BE; 
+    a : #7F7FD5;
+    b: #86A8E7;
+    c: #91EAE4;
+}
+
+.nav-header-DW {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    background: var(--primary-color);
+    width: 100%;
+    min-width: 300px;
+    height: 3.5rem;
+    /* position: fixed; */
+}
+
+.fixed{
+      margin : auto;
+      position: fixed;
+      margin-top: -4rem;
+      /* padding-bottom: 3rem; */
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+  .header__nav-DW {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .header__nav-DW li {
+    display: inline-block;
+  }
+  .header__nav-DW a {
+    padding: 8px;
+  }
+  
+
+  .quiz-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
