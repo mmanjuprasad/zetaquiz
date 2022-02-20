@@ -78,3 +78,7 @@
 .wrong-ans{
     background-color: rgb(201, 6, 6);
 }
+
+.ans-btn:focus{
+    background-color: #003973;
+}
